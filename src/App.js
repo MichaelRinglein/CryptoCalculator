@@ -62,6 +62,7 @@ class BasicTabs extends React.Component {
               <Tab label="BTC" href="#BTC" />
               <Tab label="IOTA" href="#IOTA"/>
               <Tab label="DRGN" href="#DRGN" />
+              <Tab label="SUB" href="#SUB"/>
               <Tab label="ETH" href="#ETH" />
             </Tabs>
           </AppBar>
@@ -71,6 +72,7 @@ class BasicTabs extends React.Component {
               {value === 1 && <TabContainer className={classes.singleTab}><SingleTab currency="iota" /></TabContainer>}
               {value === 2 && <TabContainer className={classes.singleTab}><SingleTab currency="dragonchain" /></TabContainer>}
               {value === 3 && <TabContainer className={classes.singleTab}><SingleTab currency="ethereum" /></TabContainer>}
+              {value === 4 && <TabContainer className={classes.singleTab}><SingleTab currency="substratum" /></TabContainer>}
             </Grid>
           </Grid>
         </div>
