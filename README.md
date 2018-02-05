@@ -1,3 +1,9 @@
+# Crypto Calculator #
+
+![alt text](screenshots/cryptoApp.jpg "Screenshot of http://crypto.michaelringlein.com")
+
+---
+
 Live version can be found at http://crypto.michaelringlein.com/
 
 ---
